@@ -4,9 +4,10 @@
 #include<vector>
 #include <chrono>
 #include <thread>
+#include <mutex>
 
 using namespace std;
-
+static bool st=true;
 class Weapon
 {
 public:
@@ -19,21 +20,23 @@ class Bow:public Weapon
 {
 	float dmg;
 	float atckspd;
+	float HP;
 	string bow;
 public:
 	virtual void BasicCha() override
 	{
 		int n;
 		cout << "Enter nymber:\n";
-		cout << "1 - Elven Bow: Damage = 32.5, AtcSpd = 2.1\n";
-		cout << "2 - Draconic Bow: Damage = 44.1, AtcSpd = 2.7\n";
-		cout << "3 - Winter Bow: Damage = 28.4, AtcSpd = 1.7\n";
+		cout << "1 - Elven Bow: Damage = 511.3, AtcSpd = 2.1\n";
+		cout << "2 - Draconic Bow: Damage = 581.4, AtcSpd = 2.7\n";
+		cout << "3 - Winter Bow: Damage = 481.8, AtcSpd = 1.7\n";
 		cin >> n;
 		if (n == 1)
 		{
 			bow = "Elven Bow";
 			dmg = 511.3;
 			atckspd = 2.1;
+			
 		}
 		if (n == 2)
 		{
@@ -47,7 +50,9 @@ public:
 			dmg = 481.8;
 			atckspd = 1.7;
 		}
-		cout <<"Your Weapon: " << bow << "\nDamage = " << dmg << "\tAtcSpd = " << atckspd << "\t\n";
+		HP = 5600.53;
+		cout <<"Your Weapon: " << bow << "\nDamage = " << dmg << "\tAtcSpd = " << atckspd << "\tHP = "<<HP<<"\n";
+		
 	}
 
 	string getName()
@@ -63,6 +68,11 @@ public:
 		return atckspd;
 	}
 
+	float getHP()
+	{
+		return HP;
+	}
+
 	void Print()
 	{
 		cout << bow << "\n" << dmg<<"\n";
@@ -71,9 +81,11 @@ public:
 
 class WarriorWeapon :public Weapon
 {
+	float HP;
 	float dmg;
 	float atckspd;
 	string warriorWeapon;
+	string Clas="Warrior";
 public:
 	virtual void BasicCha() override
 	{
@@ -101,10 +113,34 @@ public:
 			dmg = 294;
 			atckspd = 1.47;
 		}
-		cout << "Your Weapon: " << warriorWeapon << "\nDamage = " << dmg << "\tAtcSpd = " << atckspd << "\t\n";
+		HP = 9300;
+		cout << "Your Weapon: " << warriorWeapon << "\nDamage = " << dmg << "\tAtcSpd = " << atckspd << "\tHP = "<<HP<<"\n";
 
 
 	}
+	
+	string getClas()
+	{
+		return Clas;
+	}
+	string getName()
+	{
+		return warriorWeapon;
+	}
+	float getDMG()
+	{
+		return dmg;
+	}
+	float getATS()
+	{
+		return atckspd;
+	}
+
+	float getHP()
+	{
+		return HP;
+	}
+
 	void Print()
 	{
 		cout << warriorWeapon << "\n" << dmg << "\n";
@@ -113,6 +149,7 @@ public:
 
 class MageWeapon :public Weapon
 {
+	float HP;
 	float dmg;
 	float atckspd;
 	string mageWeapon;
@@ -143,7 +180,8 @@ public:
 			dmg = 294;
 			atckspd = 1.47;
 		}
-		cout << "Your Weapon: " << mageWeapon << "\nDamage = " << dmg << "\tAtcSpd = " << atckspd << "\t\n";
+		HP = 4800;
+		cout << "Your Weapon: " << mageWeapon << "\nDamage = " << dmg << "\tAtcSpd = " << atckspd << "\tHP = "<<HP<<"\n";
 	}
 
 	string getName()
@@ -159,6 +197,11 @@ public:
 		return atckspd;
 	}
 
+	float getHP()
+	{
+		return HP;
+	}
+
 	void Print()
 	{
 		cout << mageWeapon << "\n" << dmg << "\n";
@@ -168,11 +211,18 @@ public:
 class Player
 {
 private:
+	string Clas;
 	string name;
 	float dmg;
 	float atckspd;
+	float HP;
 
 public:
+
+	void setClas(string Clas)
+	{
+		this->Clas = Clas;
+	}
 
 	void setName(string name)
 	{
@@ -185,6 +235,10 @@ public:
 	void setATS(float atckspd)
 	{
 		this->atckspd = atckspd;
+	}
+	void setHP(float HP)
+	{
+		this->HP = HP;
 	}
 	string getName()
 	{
@@ -199,6 +253,15 @@ public:
 		return atckspd;
 	}
 
+	float getHP()
+	{
+		return HP;
+	}
+
+	string getClas()
+	{
+		return Clas;
+	}
 	void Print()
 	{
 		cout << name << "\n" << dmg << "\n"<<atckspd;
@@ -208,15 +271,91 @@ public:
 	{
 		for (int dodik = 0; dodik < all.size(); dodik++)
 		{
+			cout <<"Dodik [" << dodik + 1 << "] " << all[dodik].getName() << "\n";
 			cout <<"ATS: " << all[dodik].getATS()<<"\n";
-			cout << "DMG: " << all[dodik].getDMG() << "\n";
-			cout << "Dodik [" << dodik+1 << "] " << all[dodik].getName() << "\n";
+			cout <<"DMG: " << all[dodik].getDMG() << "\n";
+			cout<<"HP: "<<all[dodik].getHP()<<"\n";
+
 		}
 	}
 
-	void Fight(vector<Player> all)
+	void Vibor(vector<Player> all)
 	{
-		ALLiN(all);
+		
+		if (all.size() > 1)
+		{
+			ALLiN(all);
+			cout << "Vibor 2 dodika: \n";
+			int d1,d2;
+			cout << "D1:";
+			cin >> d1;
+			cout << "D2:";
+			cin >> d2;
+			d1--;
+			d2--;
+			Player alo;
+			
+			thread D1(&Player::Fight,alo, all, d1, d2);
+
+			this_thread::sleep_for(chrono::milliseconds(15));
+			thread D2(&Player::Fight,alo, all, d2, d1);
+			/*Fight(all, d2, d1);*/
+			
+			D1.join();
+			D2.join();
+		}
+
+	}
+
+	void Fight(vector<Player> all,int d1,int d2)
+	{
+		mutex mu;
+		srand(time(0));
+		st = true;
+		float const dm = all[d1].getDMG();
+		/*cout<<all[d1].Clas<<"\n";*/
+		
+		while (all[d1].getHP() >= 0 && all[d2].getHP() >= 0 && st == true)
+		{
+			
+			if (all[d1].Clas == "Warrior")
+			{
+				int r;
+				
+				r = rand() % 10 + 1;
+				/*cout <<"\nR: " << r;*/
+				if (r == 1 || r == 2 || r == 3)
+				{
+					all[d1].setDMG(all[d1].getDMG() * 2.2);
+				}
+				else
+				{
+					all[d1].setDMG(dm);
+				}
+
+			}
+			this_thread::sleep_for(chrono::milliseconds(int(all[d1].getATS()) * 1000));
+			mu.lock();
+			cout << all[d1].getName() << "<<-- did " << all[d1].getDMG() << " DMG -->> " << all[d2].getName() << "\n";
+			mu.unlock();
+			all[d2].setHP(all[d2].getHP() - all[d1].getDMG());
+			if (all[d2].getHP() > 0)
+			{
+				mu.lock();
+				cout << all[d2].getName() << " Left HP: " << all[d2].getHP() << "\n";
+				mu.unlock();
+			}
+			else
+			{
+				st = false;
+				all[d2].setHP(0);
+				mu.lock();
+				cout << all[d2].getName() << " Left HP: " << all[d2].getHP() << "\n";
+				mu.unlock();
+				break;
+			}
+			cout << "\n";
+		}
 	}
 	
 };
@@ -224,12 +363,13 @@ public:
 
 int main()
 {
-	vector <Bow> play;
-	vector <WarriorWeapon> play2;
+	
+	srand(time(0));
+	vector<Bow> play;
+	vector<WarriorWeapon> play2;
 	vector	<MageWeapon> play3;
 	vector<Player> all;
 	
-	/*Player Lyk;*/
 	Bow bow2;
 	WarriorWeapon Warrior;
 	MageWeapon Mage;
@@ -253,7 +393,7 @@ int main()
 			cin >> clas;
 			if (clas == 1)
 			{
-				kol++;
+				
 				
 				bow2.BasicCha();
 				play.push_back(bow2);
@@ -262,6 +402,7 @@ int main()
 				Player tmp;
 				tmp.setATS(bow2.getATS());
 				tmp.setDMG(bow2.getDMG());
+				tmp.setHP(bow2.getHP());
 				string ima;
 				cout << "Enter name etomy dodiku\n";
 				cin >> ima;
@@ -271,10 +412,8 @@ int main()
 				cout << "Print:\n";
 				for (int i = 0; i < all.size(); i++)
 				{
-					
 					all[i].Print();
 					cout << "\n";
-
 				}
 				system("pause");
 				cout << "Print:\n";
@@ -290,26 +429,38 @@ int main()
 			}
 			if (clas == 2)
 			{
-				kol++;
+				
 				
 				Warrior.BasicCha();
 				play2.push_back(Warrior);
 				cout << "Print:\n";
 				play2[play2.size() - 1].Print();
 				system("pause");
+				Player tmp;
+				tmp.setATS(Warrior.getATS());
+				tmp.setDMG(Warrior.getDMG());
+				tmp.setHP(Warrior.getHP());
+				tmp.setClas(Warrior.getClas());
+				string ima;
+				cout << "Enter name etomy dodiku\n";
+				cin >> ima;
+				tmp.setName(ima);
 
+				all.push_back(tmp);
 				cout << "Print:\n";
-				for (int i = 0; i < play2.size(); i++)
+				for (int i = 0; i < all.size(); i++)
 				{
-					play2[i].Print();
+					all[i].Print();
 					cout << "\n";
 				}
+				
 				system("pause");
 				break;
+				
 			}
 			if (clas == 3)
 			{
-				kol++;
+				
 				Mage.BasicCha();
 				play3.push_back(Mage);
 				cout << "Print:\n";
@@ -330,7 +481,8 @@ int main()
 		{
 			if (all.size() >= 2)
 			{
-				all[0].Fight(all);
+				all[0].Vibor(all);
+				
 				system("pause");
 			}
 			else
