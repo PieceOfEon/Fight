@@ -1,0 +1,229 @@
+		Fight: 1
+NeLOL<<-- did 294 DMG -->> LOL
+LOL Left HP: 5306.53
+LOL<<-- did 581.4 DMG -->> NeLOL
+NeLOL Left HP: 8718.6
+NeLOL<<-- did Critical Hit! 646.8 DMG -->> LOL
+LOL Left HP: 4659.73
+NeLOL<<-- did Critical Hit! 646.8 DMG -->> LOL
+LOL Left HP: 4012.93
+LOL<<-- did Critical Hit! 1744.2 DMG -->> NeLOL
+NeLOL Left HP: 6974.4
+NeLOL<<-- did Critical Hit! 646.8 DMG -->> LOL
+LOL Left HP: 3366.13
+NeLOL<<-- did 294 DMG -->> LOL
+LOL Left HP: 3072.13
+LOL<<-- did Critical Hit! 1744.2 DMG -->> NeLOL
+NeLOL Left HP: 5230.2
+NeLOL<<-- did Critical Hit! 646.8 DMG -->> LOL
+LOL Left HP: 2425.33
+NeLOL<<-- did 294 DMG -->> LOL
+LOL Left HP: 2131.33
+LOL<<-- did Critical Hit! 1744.2 DMG -->> NeLOL
+NeLOL Left HP: 3486
+NeLOL<<-- did 294 DMG -->> LOL
+LOL Left HP: 1837.33
+NeLOL<<-- did Critical Hit! 646.8 DMG -->> LOL
+LOL Left HP: 1190.53
+LOL<<-- did 581.4 DMG -->> NeLOL
+NeLOL Left HP: 2904.6
+NeLOL<<-- did 294 DMG -->> LOL
+LOL Left HP: 896.53
+NeLOL<<-- did 294 DMG -->> LOL
+LOL Left HP: 602.53
+LOL<<-- did Critical Hit! 1744.2 DMG -->> NeLOL
+NeLOL Left HP: 1160.4
+NeLOL<<-- did 294 DMG -->> LOL
+LOL Left HP: 308.53
+NeLOL<<-- did Critical Hit! 646.8 DMG -->> LOL
+LOL Left HP: 0
+
+	~)@(~You are Won!~)@(~ NeLOL
+		Fight: 2
+NeLOL<<-- did Critical Hit! 646.8 DMG -->> KUKIS
+KUKIS Left HP: 8653.2
+KUKIS<<-- did Critical Hit! 550.44 DMG -->> NeLOL
+NeLOL Left HP: 8749.56
+KUKIS<<-- did Critical Hit! 550.44 DMG -->> NeLOL
+NeLOL Left HP: 8199.12
+NeLOL<<-- did Critical Hit! 646.8 DMG -->> KUKIS
+KUKIS Left HP: 8006.4
+KUKIS<<-- did 250.2 DMG -->> NeLOL
+NeLOL Left HP: 7948.92
+NeLOL<<-- did 294 DMG -->> KUKIS
+KUKIS Left HP: 7712.4
+NeLOL<<-- did 294 DMG -->> KUKIS
+KUKIS Left HP: 7418.4
+KUKIS<<-- did 250.2 DMG -->> NeLOL
+NeLOL Left HP: 7698.72
+NeLOL<<-- did 294 DMG -->> KUKIS
+KUKIS Left HP: 7124.4
+KUKIS<<-- did 250.2 DMG -->> NeLOL
+NeLOL Left HP: 7448.52
+KUKIS<<-- did 250.2 DMG -->> NeLOL
+NeLOL Left HP: 7198.32
+NeLOL<<-- did 294 DMG -->> KUKIS
+KUKIS Left HP: 6830.4
+NeLOL<<-- did Critical Hit! 646.8 DMG -->> KUKIS
+KUKIS Left HP: 6183.6
+KUKIS<<-- did Critical Hit! 550.44 DMG -->> NeLOL
+NeLOL Left HP: 6647.88
+KUKIS<<-- did 250.2 DMG -->> NeLOL
+NeLOL Left HP: 6397.68
+NeLOL<<-- did 294 DMG -->> KUKIS
+KUKIS Left HP: 5889.6
+KUKIS<<-- did 250.2 DMG -->> NeLOL
+NeLOL Left HP: 6147.48
+NeLOL<<-- did 294 DMG -->> KUKIS
+KUKIS Left HP: 5595.6
+KUKIS<<-- did Critical Hit! 550.44 DMG -->> NeLOL
+NeLOL Left HP: 5597.04
+NeLOL<<-- did Critical Hit! 646.8 DMG -->> KUKIS
+KUKIS Left HP: 4948.8
+KUKIS<<-- did Critical Hit! 550.44 DMG -->> NeLOL
+NeLOL Left HP: 5046.6
+NeLOL<<-- did Critical Hit! 646.8 DMG -->> KUKIS
+KUKIS Left HP: 4302
+KUKIS<<-- did 250.2 DMG -->> NeLOL
+NeLOL Left HP: 4796.4
+NeLOL<<-- did 294 DMG -->> KUKIS
+KUKIS Left HP: 4008
+KUKIS<<-- did Critical Hit! 550.44 DMG -->> NeLOL
+NeLOL Left HP: 4245.96
+NeLOL<<-- did Critical Hit! 646.8 DMG -->> KUKIS
+KUKIS Left HP: 3361.2
+KUKIS<<-- did Critical Hit! 550.44 DMG -->> NeLOL
+NeLOL Left HP: 3695.52
+NeLOL<<-- did Critical Hit! 646.8 DMG -->> KUKIS
+KUKIS Left HP: 2714.4
+NeLOL<<-- did 294 DMG -->> KUKIS
+KUKIS Left HP: 2420.4
+KUKIS<<-- did 250.2 DMG -->> NeLOL
+NeLOL Left HP: 3445.32
+NeLOL<<-- did 294 DMG -->> KUKIS
+KUKIS Left HP: 2126.4
+KUKIS<<-- did 250.2 DMG -->> NeLOL
+NeLOL Left HP: 3195.12
+NeLOL<<-- did 294 DMG -->> KUKIS
+KUKIS Left HP: 1832.4
+KUKIS<<-- did 250.2 DMG -->> NeLOL
+NeLOL Left HP: 2944.92
+NeLOL<<-- did Critical Hit! 646.8 DMG -->> KUKIS
+KUKIS Left HP: 1185.6
+KUKIS<<-- did Critical Hit! 550.44 DMG -->> NeLOL
+NeLOL Left HP: 2394.48
+NeLOL<<-- did 294 DMG -->> KUKIS
+KUKIS Left HP: 891.601
+KUKIS<<-- did 250.2 DMG -->> NeLOL
+NeLOL Left HP: 2144.28
+NeLOL<<-- did 294 DMG -->> KUKIS
+KUKIS Left HP: 597.601
+KUKIS<<-- did 250.2 DMG -->> NeLOL
+NeLOL Left HP: 1894.08
+NeLOL<<-- did 294 DMG -->> KUKIS
+KUKIS Left HP: 303.601
+KUKIS<<-- did 250.2 DMG -->> NeLOL
+NeLOL Left HP: 1643.88
+NeLOL<<-- did 294 DMG -->> KUKIS
+KUKIS Left HP: 9.60083
+KUKIS<<-- did 250.2 DMG -->> NeLOL
+NeLOL Left HP: 1393.68
+NeLOL<<-- did 294 DMG -->> KUKIS
+KUKIS Left HP: 0
+
+	~)@(~You are Won!~)@(~ NeLOL
+		Fight: 1
+ALOK<<-- did Critical Hit! 1533.9 DMG -->> f
+f Left HP: 4066.63
+f<<-- did Critical Hit! 1744.2 DMG -->> ALOK
+ALOK Left HP: 3856.33
+ALOK<<-- did Critical Hit! 1533.9 DMG -->> f
+f Left HP: 2532.73
+f<<-- did Critical Hit! 1744.2 DMG -->> ALOK
+ALOK Left HP: 2112.13
+ALOK<<-- did Critical Hit! 1533.9 DMG -->> f
+f Left HP: 998.83
+f<<-- did Critical Hit! 1744.2 DMG -->> ALOK
+ALOK Left HP: 367.929
+ALOK<<-- did 511.3 DMG -->> f
+f<<-- did 581.4 DMG -->> ALOK
+ALOK Left HP: 0
+
+	~)@(~You are Won!~)@(~ f
+		Fight: 1
+		Fight: 1
+		Fight: 1
+		Fight: 1
+		Fight: 1
+		Fight: 1
+3<<-- did Critical Hit! 1176 DMG -->> 3
+3 Left HP: 4424.53
+3<<-- did Critical Hit! 1744.2 DMG -->> 3
+3 Left HP: 3055.8
+3<<-- did 294 DMG -->> 3
+3 Left HP: 4130.53
+3<<-- did Critical Hit! 1176 DMG -->> 3
+3 Left HP: 2954.53
+3<<-- did 581.4 DMG -->> 3
+3 Left HP: 2474.4
+3<<-- did Critical Hit! 1176 DMG -->> 3
+3 Left HP: 1778.53
+3<<-- did 294 DMG -->> 3
+3 Left HP: 1484.53
+3<<-- did Critical Hit! 1744.2 DMG -->> 3
+3 Left HP: 730.2
+3<<-- did 294 DMG -->> 3
+3 Left HP: 1190.53
+3<<-- did 294 DMG -->> 3
+3 Left HP: 896.53
+3<<-- did Critical Hit! 1744.2 DMG -->> 3
+3 Left HP: 0
+
+	~)@(~You are Won!~)@(~ 3
+		Fight: 1
+		Fight: 1
+		Fight: 1
+22<<-- did Critical Hit! 610.06 DMG -->> 1
+1 Left HP: 4990.47
+1<<-- did Critical Hit! 1533.9 DMG -->> 22
+22 Left HP: 7766.1
+22<<-- did Critical Hit! 610.06 DMG -->> 1
+1 Left HP: 4380.41
+22<<-- did Critical Hit! 610.06 DMG -->> 1
+1 Left HP: 3770.35
+1<<-- did Critical Hit! 1533.9 DMG -->> 22
+22 Left HP: 6232.2
+22<<-- did 277.3 DMG -->> 1
+1 Left HP: 3493.05
+22<<-- did 277.3 DMG -->> 1
+1 Left HP: 3215.75
+1<<-- did Critical Hit! 1533.9 DMG -->> 22
+22 Left HP: 4698.3
+22<<-- did Critical Hit! 610.06 DMG -->> 1
+1 Left HP: 2605.69
+22<<-- did 277.3 DMG -->> 1
+1 Left HP: 2328.39
+1<<-- did 511.3 DMG -->> 22
+22 Left HP: 4187
+22<<-- did 277.3 DMG -->> 1
+1 Left HP: 2051.09
+22<<-- did 277.3 DMG -->> 1
+1 Left HP: 1773.79
+1<<-- did 511.3 DMG -->> 22
+22 Left HP: 3675.7
+22<<-- did 277.3 DMG -->> 1
+1 Left HP: 1496.49
+22<<-- did Critical Hit! 610.06 DMG -->> 1
+1 Left HP: 886.429
+1<<-- did Critical Hit! 1533.9 DMG -->> 22
+22 Left HP: 2141.8
+22<<-- did 277.3 DMG -->> 1
+1 Left HP: 609.129
+22<<-- did 277.3 DMG -->> 1
+1 Left HP: 331.829
+1<<-- did Critical Hit! 1533.9 DMG -->> 22
+22 Left HP: 607.901
+22<<-- did Critical Hit! 610.06 DMG -->> 1
+1 Left HP: 0
+
+	~)@(~You are Won!~)@(~ 22
